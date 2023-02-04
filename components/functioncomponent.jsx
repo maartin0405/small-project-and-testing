@@ -6,9 +6,7 @@ const Functioncomponent = () => {
   return (
     <div>
       <p>{text}</p>
-      <button onClick={() => setText(({ text } = "you clicked!"))}>
-        click here
-      </button>
+      <button onClick={() => setText("you clicked!")}>click here</button>
     </div>
   );
 };
