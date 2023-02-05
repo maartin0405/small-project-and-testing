@@ -1,6 +1,7 @@
 import Counter from "../components/counter";
 import List from "../components/list";
 import Functioncomponent from "../components/functioncomponent";
+import StateToggle from "../components/toggle";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Counter />
       <List />
       <Functioncomponent />
+      <StateToggle />
     </div>
   );
 }
